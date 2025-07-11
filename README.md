@@ -42,11 +42,14 @@ CustomPieChart chart = new CustomPieChart("Chart Title", yourMapData);
 JPanel chartPanel = chart.getChartPanel();
 yourContainerPanel.add(chartPanel);
 ### 2. Pass a map with your data:
+```
+
 ```java
 Map<String, Double> data = new HashMap<>();
 data.put("January", 1200.0);
 data.put("February", 900.0);
 data.put("March", 1500.0);
+```
 
 📌 Example
 ```java
@@ -59,7 +62,7 @@ CustomPieChart pie = new CustomPieChart("Fruit Distribution", fruits);
 JPanel chartPanel = pie.getChartPanel();
 
 myMainPanel.add(chartPanel);
-
+```
 
 ### 📷 Screenshot
 ![Pie Chart Screenshot](images/piechartScreenshot.png)
@@ -69,5 +72,5 @@ This project is open for educational and personal use. JFreeChart is under LGPL.
 
 🙋‍♂️ Author
 Elisha – IT Student & Java Developer
-📫 Contact: [your-email@example.com]
-🌍 Projects: Web | Desktop | Data Visualization
+📫 Contact: blackcoda56@gmail.com
+🌍 Projects: Web | Desktop | Data Visualization | Computer vision
