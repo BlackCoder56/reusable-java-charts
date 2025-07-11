@@ -62,7 +62,7 @@ myMainPanel.add(chartPanel);
 
 
 ### 📷 Screenshot
-![Pie Chart Screenshot](images/customPieChart.png)
+![Pie Chart Screenshot](images/piechartScreenshot.png)
 
 📄 License
 This project is open for educational and personal use. JFreeChart is under LGPL.
